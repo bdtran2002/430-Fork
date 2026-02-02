@@ -7,7 +7,7 @@ int main(){
 
 	int x,y;
 	std::cin >> x >> y;
-	if (x == 0 || y == 0) {
+	if (y == 0) {
 		std::cout << "Error: Division or remainder by zero is not allowed." << std::endl;
 		return 0;
 	}
